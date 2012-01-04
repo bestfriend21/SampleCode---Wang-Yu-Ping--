@@ -1,0 +1,307 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		520D581A13D057E000DA7F63 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520D581913D057E000DA7F63 /* UIKit.framework */; };
+		520D581C13D057E000DA7F63 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520D581B13D057E000DA7F63 /* Foundation.framework */; };
+		520D581E13D057E000DA7F63 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520D581D13D057E000DA7F63 /* CoreGraphics.framework */; };
+		520D582413D057E000DA7F63 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 520D582213D057E000DA7F63 /* InfoPlist.strings */; };
+		520D582713D057E000DA7F63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 520D582613D057E000DA7F63 /* main.m */; };
+		520D582A13D057E000DA7F63 /* NoiseMakerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 520D582913D057E000DA7F63 /* NoiseMakerAppDelegate.m */; };
+		520D582D13D057E100DA7F63 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520D582B13D057E100DA7F63 /* MainWindow.xib */; };
+		520D583013D057E100DA7F63 /* NoiseMakerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 520D582F13D057E100DA7F63 /* NoiseMakerViewController.m */; };
+		520D583313D057E100DA7F63 /* NoiseMakerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 520D583113D057E100DA7F63 /* NoiseMakerViewController.xib */; };
+		520D583A13D05BDC00DA7F63 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 520D583913D05BDC00DA7F63 /* AVFoundation.framework */; };
+		520D583C13D05E6400DA7F63 /* HeadspinLong.caf in Resources */ = {isa = PBXBuildFile; fileRef = 520D583B13D05E6400DA7F63 /* HeadspinLong.caf */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		520D581513D057E000DA7F63 /* NoiseMaker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoiseMaker.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		520D581913D057E000DA7F63 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		520D581B13D057E000DA7F63 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		520D581D13D057E000DA7F63 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		520D582113D057E000DA7F63 /* NoiseMaker-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NoiseMaker-Info.plist"; sourceTree = "<group>"; };
+		520D582313D057E000DA7F63 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		520D582513D057E000DA7F63 /* NoiseMaker-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NoiseMaker-Prefix.pch"; sourceTree = "<group>"; };
+		520D582613D057E000DA7F63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		520D582813D057E000DA7F63 /* NoiseMakerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoiseMakerAppDelegate.h; sourceTree = "<group>"; };
+		520D582913D057E000DA7F63 /* NoiseMakerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoiseMakerAppDelegate.m; sourceTree = "<group>"; };
+		520D582C13D057E100DA7F63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		520D582E13D057E100DA7F63 /* NoiseMakerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NoiseMakerViewController.h; sourceTree = "<group>"; };
+		520D582F13D057E100DA7F63 /* NoiseMakerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoiseMakerViewController.m; sourceTree = "<group>"; };
+		520D583213D057E100DA7F63 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/NoiseMakerViewController.xib; sourceTree = "<group>"; };
+		520D583913D05BDC00DA7F63 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		520D583B13D05E6400DA7F63 /* HeadspinLong.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HeadspinLong.caf; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		520D581213D057E000DA7F63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520D583A13D05BDC00DA7F63 /* AVFoundation.framework in Frameworks */,
+				520D581A13D057E000DA7F63 /* UIKit.framework in Frameworks */,
+				520D581C13D057E000DA7F63 /* Foundation.framework in Frameworks */,
+				520D581E13D057E000DA7F63 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		520D580A13D057E000DA7F63 = {
+			isa = PBXGroup;
+			children = (
+				520D581F13D057E000DA7F63 /* NoiseMaker */,
+				520D581813D057E000DA7F63 /* Frameworks */,
+				520D581613D057E000DA7F63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		520D581613D057E000DA7F63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				520D581513D057E000DA7F63 /* NoiseMaker.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		520D581813D057E000DA7F63 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				520D583913D05BDC00DA7F63 /* AVFoundation.framework */,
+				520D581913D057E000DA7F63 /* UIKit.framework */,
+				520D581B13D057E000DA7F63 /* Foundation.framework */,
+				520D581D13D057E000DA7F63 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		520D581F13D057E000DA7F63 /* NoiseMaker */ = {
+			isa = PBXGroup;
+			children = (
+				520D583D13D05E6700DA7F63 /* Audio Files */,
+				520D582813D057E000DA7F63 /* NoiseMakerAppDelegate.h */,
+				520D582913D057E000DA7F63 /* NoiseMakerAppDelegate.m */,
+				520D582B13D057E100DA7F63 /* MainWindow.xib */,
+				520D582E13D057E100DA7F63 /* NoiseMakerViewController.h */,
+				520D582F13D057E100DA7F63 /* NoiseMakerViewController.m */,
+				520D583113D057E100DA7F63 /* NoiseMakerViewController.xib */,
+				520D582013D057E000DA7F63 /* Supporting Files */,
+			);
+			path = NoiseMaker;
+			sourceTree = "<group>";
+		};
+		520D582013D057E000DA7F63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				520D582113D057E000DA7F63 /* NoiseMaker-Info.plist */,
+				520D582213D057E000DA7F63 /* InfoPlist.strings */,
+				520D582513D057E000DA7F63 /* NoiseMaker-Prefix.pch */,
+				520D582613D057E000DA7F63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		520D583D13D05E6700DA7F63 /* Audio Files */ = {
+			isa = PBXGroup;
+			children = (
+				520D583B13D05E6400DA7F63 /* HeadspinLong.caf */,
+			);
+			name = "Audio Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		520D581413D057E000DA7F63 /* NoiseMaker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 520D583613D057E100DA7F63 /* Build configuration list for PBXNativeTarget "NoiseMaker" */;
+			buildPhases = (
+				520D581113D057E000DA7F63 /* Sources */,
+				520D581213D057E000DA7F63 /* Frameworks */,
+				520D581313D057E000DA7F63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NoiseMaker;
+			productName = NoiseMaker;
+			productReference = 520D581513D057E000DA7F63 /* NoiseMaker.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		520D580C13D057E000DA7F63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Wakefield School";
+			};
+			buildConfigurationList = 520D580F13D057E000DA7F63 /* Build configuration list for PBXProject "NoiseMaker" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 520D580A13D057E000DA7F63;
+			productRefGroup = 520D581613D057E000DA7F63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				520D581413D057E000DA7F63 /* NoiseMaker */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		520D581313D057E000DA7F63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520D582413D057E000DA7F63 /* InfoPlist.strings in Resources */,
+				520D582D13D057E100DA7F63 /* MainWindow.xib in Resources */,
+				520D583313D057E100DA7F63 /* NoiseMakerViewController.xib in Resources */,
+				520D583C13D05E6400DA7F63 /* HeadspinLong.caf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		520D581113D057E000DA7F63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				520D582713D057E000DA7F63 /* main.m in Sources */,
+				520D582A13D057E000DA7F63 /* NoiseMakerAppDelegate.m in Sources */,
+				520D583013D057E100DA7F63 /* NoiseMakerViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		520D582213D057E000DA7F63 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520D582313D057E000DA7F63 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		520D582B13D057E100DA7F63 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520D582C13D057E100DA7F63 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		520D583113D057E100DA7F63 /* NoiseMakerViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				520D583213D057E100DA7F63 /* en */,
+			);
+			name = NoiseMakerViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		520D583413D057E100DA7F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		520D583513D057E100DA7F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		520D583713D057E100DA7F63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Feng Bai (RH9Z276MHP)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Feng Bai (RH9Z276MHP)";
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoiseMaker/NoiseMaker-Prefix.pch";
+				INFOPLIST_FILE = "NoiseMaker/NoiseMaker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "5A76B522-54C6-49C3-B3C8-84905BE147D2";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "5A76B522-54C6-49C3-B3C8-84905BE147D2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		520D583813D057E100DA7F63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NoiseMaker/NoiseMaker-Prefix.pch";
+				INFOPLIST_FILE = "NoiseMaker/NoiseMaker-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		520D580F13D057E000DA7F63 /* Build configuration list for PBXProject "NoiseMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520D583413D057E100DA7F63 /* Debug */,
+				520D583513D057E100DA7F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		520D583613D057E100DA7F63 /* Build configuration list for PBXNativeTarget "NoiseMaker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				520D583713D057E100DA7F63 /* Debug */,
+				520D583813D057E100DA7F63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 520D580C13D057E000DA7F63 /* Project object */;
+}
